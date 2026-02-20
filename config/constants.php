@@ -3,8 +3,7 @@
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
-
-define('SITEURL', 'https://your-app-name.onrender.com/');
+define('SITEURL', 'https://cricket-store-deploy.onrender.com/');
 
 $mysqli = mysqli_init();
 
